@@ -1,4 +1,6 @@
 #juntar a pasta git com o github
-git remote add origin https://github.com/mksime/Git-e-Github-para-iniciantes.git
+$ git remote add origin https://github.com/mksime/Git-e-Github-para-iniciantes.git
 
+
+git push -u origin master
 
