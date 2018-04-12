@@ -1,0 +1,9 @@
+#criar pasta do projeto
+$ mkdir "nome do projeto"
+
+##Dentro da pasta
+
+#inicializar o repositório git
+$ git init
+
+

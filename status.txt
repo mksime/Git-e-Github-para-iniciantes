@@ -1,0 +1,19 @@
+##Dentro da pasta
+#verificar status dos arquivos
+$ git status
+
+#adicionar modificações no arquivo ao repositorio
+$ git add "nome_do_arquivo"
+
+$ git commit -m "mensagem do commit" #-m para adicionar mensagem
+
+#verificando log do commit
+$ git log
+
+#opções de git log
+
+--decorate
+--author="nome do autor" #mostra as modificações desse autor
+$ git shortlog
+--graph
+$ git show hash #mostra o log do commit correspondente à hash

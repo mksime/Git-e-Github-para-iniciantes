@@ -1,0 +1,18 @@
+#ver diferenças antes de add
+$ git diff
+
+#opções
+--name-only #ver qual arquivo foi modificado
+
+#desfaz modificações antes do add
+$ git checkout
+
+#tirar arquivo do staged (desfaz o git add)
+$git reset HEAD nome_do_arquivo
+
+#opções do git reset. Usar hash anterior à do arquivo que sofre reset
+--soft hash #tira o commit, mas mantém as modificações e o arquivo staged
+--mixed hash #tira o commit e volta pra antes do add, mas mantém as modificações
+--hard hash #volta todas as modificações
+
+

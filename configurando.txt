@@ -1,0 +1,16 @@
+#definir nome de usuário
+$ git config --global user.name "nome de usuário"
+
+#definir o email do usuário
+$ git config --global user.email "emaildousuario@exemplo.com" 
+
+#definir o editor de texto padrão
+$ git config --global core.editor "editor de texto"
+
+#comandos para verificar infos
+$ git config user.name
+
+$ git config user.email 
+
+$ git config list
+######
