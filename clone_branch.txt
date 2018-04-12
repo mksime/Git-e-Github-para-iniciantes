@@ -12,3 +12,9 @@ $ git checkout nome_branch
 
 #deletar branch
 $ git branch -D nome_branch
+
+#merge branch
+$ git merge nome_branch #branch a ser adicionado ao master
+
+#rebase
+$ git rebase nome_branch #branch a ser adicionado ao master

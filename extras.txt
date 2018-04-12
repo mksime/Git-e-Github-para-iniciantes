@@ -1,0 +1,23 @@
+Tudo que estiver dentro de um arquivo .gitignore não é adicionado ao github (nome do arquivo ou extensão)
+
+$ git stash guarda arquivos modificados sem add 
+
+alias cria atalhos para comandos
+$git config --global alias.atalho comando
+
+adicionar tags
+$git tag -a versão -m "comentário"
+
+ver tags
+$git push origin master --tags
+
+revert mantém os arquivos, mas volta pra versão anterior à da hash
+$git revert hash
+
+deletar no repositório local
+$git tag -d versão
+
+deletar no repositório remoto
+$git push :versão
+ou
+$git push :nome_branch
