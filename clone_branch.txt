@@ -1,0 +1,14 @@
+#pra clonar um repositório, copiar o endereço do repositório no github(ssh)
+$git clone endereço novo-nome-do-repositório
+
+#criar novo branch
+$ git checkout -b nome_branch #-b para criar
+
+#verficar em qual branch está
+$git branch
+
+#mudar de branch
+$ git checkout nome_branch
+
+#deletar branch
+$ git branch -D nome_branch
